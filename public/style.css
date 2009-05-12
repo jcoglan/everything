@@ -1,8 +1,8 @@
 body { margin: 0; padding: 0 0 40px; background: #eee; border-top: 4px solid #205992; }
 h1 { background: #fff; padding: 40px 40px 24px; width: 600px; border-bottom: 16px solid #a8c9eb; margin: 40px auto; font: italic normal 14px Georgia, Times New Roman, serif; }
-h1 em { display: block; font: normal bold 68px Arial, Helvetica, sans-serif; text-transform: uppercase; letter-spacing: -4px; }
+h1 em { display: block; font: normal bold 68px Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: -4px; }
 
 ul { width: 680px; margin: 40px auto; list-style: none; padding: 0; }
 ul li { background: #fff; padding: 8px 40px; margin: 0 0 1px; }
-a { font: bold 18px Arial, Helvetica, sans-serif; color: #205992; text-decoration: none; }
+a { font: bold 18px Helvetica, Arial, sans-serif; color: #205992; text-decoration: none; }
 
