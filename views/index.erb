@@ -1,0 +1,18 @@
+<!doctype html>
+
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>Everything, Ever</title>
+    <link rel="stylesheet" href="/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
+  </head>
+  <body>
+    <h1>Herein, as though it were the most natural thing in the world, <%= @articles.size %> items selected from a list of <em>everything, ever</em></h1>
+    <ul>
+    <% @articles.each do |article| %>
+      <li><a href="http://en.wikipedia.org<%= article[0] %>"><%= article[1] %></a></li>
+    <% end %>
+    </ul>
+  </body>
+</html>
+
