@@ -10,7 +10,7 @@
     <h1>Herein, as though it were the most natural thing in the world, <%= @articles.size %> items selected from a list of <em>everything, ever</em></h1>
     <ul>
     <% @articles.each do |article| %>
-      <li><a href="http://en.wikipedia.org<%= article[0] %>"><%= article[1] %></a></li>
+      <li><a href="http://<%= @lang %>.wikipedia.org<%= article[0] %>"><%= article[1] %></a></li>
     <% end %>
     </ul>
     <p id="credits">A miniapp by <a href="http://blog.jcoglan.com">James Coglan</a>. Source code <a href="http://github.com/jcoglan/everything">on GitHub</a>.</p>
