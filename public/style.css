@@ -3,6 +3,8 @@ h1 { background: #fff; padding: 40px 40px 24px; width: 600px; border-bottom: 16p
 h1 em { display: block; font: normal bold 68px Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: -4px; }
 
 ul { width: 680px; margin: 40px auto; list-style: none; padding: 0; }
-ul li { background: #fff; padding: 8px 40px; margin: 0 0 1px; }
-a { font: bold 18px Helvetica, Arial, sans-serif; color: #205992; text-decoration: none; }
+ul li { background: #fff; padding: 8px 40px; margin: 0 0 1px; font: bold 18px Helvetica, Arial, sans-serif; }
+a { color: #205992; text-decoration: none; }
+
+#credits { width: 600px; margin: 40px auto; padding: 16px 40px; font: normal 16px Georgia, Times New Roman, serif; background: #fff; }
 
